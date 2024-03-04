@@ -45,7 +45,7 @@ const pokemonCard = (props: Props) => {
         <>
             {
                 imageUrl === '' ?
-                <Skeleton height={'280px'} width={'280px'} className='rounded-2xl' />
+                <Skeleton className='rounded-2xl w-full h-[300px]' />
                 :
                 <div key={props.index} className='rounded-lg shadow-md hover:shadow-2xl duration-500 py-4 relative text-black flex flex-col justify-center items-center cursor-pointer bg-[#ececec] dark:bg-[#3a3a3a] dark:text-[#FBFAF5]'>
                     <Image
