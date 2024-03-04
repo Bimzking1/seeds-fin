@@ -68,13 +68,13 @@ const navbar = () => {
                     />
                 </div>
                 <div className='flex justify-center items-center gap-2 md:gap-4'>
-                    <div className='w-full flex justify-end'>
+                    <div className='w-fit flex justify-end'>
                         <DarkModeSwitcher/>
                     </div>
                     {
                         username === '' ?
                         
-                        <Link href={'/auth/login'} className='w-[200px] px-4 py-2 flex justify-center items-center font-bold cursor-pointer rounded-full bg-[#3AC4A0] text-[#FBFAF5] dark:bg-[#3AC4A0] dark:text-[#FBFAF5] transition duration-300 hover:bg-[#DCFCE4] hover:text-[#106B6E] dark:hover:bg-[#DCFCE4] dark:hover:text-[#106B6E]'>
+                        <Link href={'/auth/login'} className='w-[100px] md:w-[150px] px-4 py-2 flex justify-center items-center font-bold cursor-pointer rounded-full bg-[#3AC4A0] text-[#FBFAF5] dark:bg-[#3AC4A0] dark:text-[#FBFAF5] transition duration-300 hover:bg-[#DCFCE4] hover:text-[#106B6E] dark:hover:bg-[#DCFCE4] dark:hover:text-[#106B6E]'>
                             Join Us
                         </Link>
                         :

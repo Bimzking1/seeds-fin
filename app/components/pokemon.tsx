@@ -31,7 +31,7 @@ const pokemon = () => {
     // console.log('data ', data)
 
     return (
-        <div className='flex justify-center items-center pt-8 pb-16 bg-[#FBFAF5] dark:bg-[#2e2e2e] duration-300'>
+        <div className='flex justify-center items-center pt-8 pb-16 bg-[#FBFAF5] dark:bg-[#2e2e2e] duration-300 px-4'>
             <div className='h-full w-full xl:w-[1280px] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4 mt-4 mb-2 px-2 xl:px-0 md:px-4'>
                 {
                     data.map((datas, index) => {
