@@ -15,6 +15,8 @@ import { updateUser } from './redux/slices/usersSlice';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 
+import Pokemon from "./components/pokemon";
+
 export default function Home() {
 
   const router = useRouter()
@@ -71,6 +73,8 @@ export default function Home() {
   return (
     <div className="flex min-h-screen flex-col">
       <Navbar/>
+
+      <Pokemon/>
 
       <ToastContainer />
 
