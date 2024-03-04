@@ -9,7 +9,7 @@ import { FaTiktok } from "react-icons/fa";
 
 const footer = () => {
   return (
-    <div className='w-full flex items-center justify-center bg-[#FBFAF5] dark:bg-[#2e2e2e] z-50'>
+    <div className='w-full flex items-center justify-center bg-[#FBFAF5] dark:bg-[#2e2e2e] z-50 border-t border-[#2e2e2e] dark:border-[#FBFAF5] duration-300'>
       <div className='bg-[#FBFAF5] dark:bg-[#2e2e2e] w-full xl:w-[1280px] text-[#2e2e2e] text-sm text-center md:text-left md:py-8 md:px-8 pb-8'>
         <div className='w-full md:flex'>
 
@@ -45,25 +45,29 @@ const footer = () => {
                     Connect with financial experts and like-minded individuals in our strong 
                     and interactive community.
                 </div>
-                <div className='flex justify-center md:justify-start py-4 gap-4'>
-                    <a href='https://www.linkedin.com/company/finance-seeds/' target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
-                        <FaLinkedinIn style={{ width: '100%', height: '100%' }}/>
-                    </a>
-                    <a href='https://instagram.com/seeds_finance' target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
-                        <FaInstagramSquare style={{ width: '100%', height: '100%' }}/>
-                    </a>
-                    <a href="https://facebook.com/seeds.finance" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
-                        <FaFacebook style={{width: '100%', height: '100%'}} />
-                    </a>
-                    <a href="https://twitter.com/seeds_finance" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
-                        <FaXTwitter style={{width: '100%', height: '100%' }} />
-                    </a>
-                    <a href="https://www.tiktok.com/@seeds_finance" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
-                        <FaTiktok style={{width: '100%', height: '100%'}} />
-                    </a>
-                    <a href="https://www.youtube.com/@seeds_id" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
-                        <FaYoutube style={{width: '100%', height: '100%' }} />
-                    </a>
+                <div className='flex flex-col xl:flex-row justify-center md:justify-start py-4 gap-4'>
+                    <div className='flex justify-center md:justify-start py-4 gap-4'>
+                        <a href='https://www.linkedin.com/company/finance-seeds/' target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
+                            <FaLinkedinIn style={{ width: '100%', height: '100%' }}/>
+                        </a>
+                        <a href='https://instagram.com/seeds_finance' target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
+                            <FaInstagramSquare style={{ width: '100%', height: '100%' }}/>
+                        </a>
+                        <a href="https://facebook.com/seeds.finance" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
+                            <FaFacebook style={{width: '100%', height: '100%'}} />
+                        </a>
+                    </div>
+                    <div className='flex justify-center md:justify-start py-4 gap-4'>
+                        <a href="https://twitter.com/seeds_finance" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
+                            <FaXTwitter style={{width: '100%', height: '100%' }} />
+                        </a>
+                        <a href="https://www.tiktok.com/@seeds_finance" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
+                            <FaTiktok style={{width: '100%', height: '100%'}} />
+                        </a>
+                        <a href="https://www.youtube.com/@seeds_id" target="_blank" className='w-[40px] md:w-[30px] text-[#1c1c1c] dark:text-[#FBFAF5] duration-300'>
+                            <FaYoutube style={{width: '100%', height: '100%' }} />
+                        </a>
+                    </div>
                 </div>
             </div>
 
